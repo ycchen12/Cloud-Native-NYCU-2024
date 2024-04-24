@@ -10,6 +10,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: 
+                name: app-clusterip
                 port:
-                  number:
+                  number: 3000

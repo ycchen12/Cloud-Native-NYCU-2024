@@ -10,7 +10,7 @@ spec:
         - containerPort: 3000
       env:
         - name: DB_HOST
-          value: db.default.svc
+          value: 127.0.0.1
     - name: db
       image: mariadb
       env:
