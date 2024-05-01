@@ -27,3 +27,7 @@ spec:
           env:
             - name: DB_HOST
               value: db-clusterip
+<<<<<<< HEAD
+=======
+          
+>>>>>>> 2618aa2c8ae7a08f843c4aac4582de94ce662ea0

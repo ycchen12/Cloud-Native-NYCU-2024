@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: app-container
-      image: ghcr.io/ycchen12/app
+      image: ghcr.io/ycchen12/app:latest
       ports:
         - containerPort: 3000
       env:
@@ -21,4 +21,8 @@ spec:
         - name: MYSQL_USER
           value: app
         - name: MYSQL_PASSWORD
+<<<<<<< HEAD
           value: app
+=======
+          value: app
+>>>>>>> 2618aa2c8ae7a08f843c4aac4582de94ce662ea0
