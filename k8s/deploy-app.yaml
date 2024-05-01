@@ -26,5 +26,4 @@ spec:
               memory: 200Mi
           env:
             - name: DB_HOST
-              value: db
-          
+              value: db-clusterip
